@@ -1,7 +1,7 @@
 import React from "react";
-import { GiAce } from "react-icons/gi";
-import { BiAbacus } from "react-icons/bi";
-import { CgWebsite } from "react-icons/cg";
+import { MdSecurity } from "react-icons/md";
+import { AiOutlineCloud } from "react-icons/ai";
+import { FaTools } from "react-icons/fa";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
@@ -18,23 +18,23 @@ const Services = () => {
       <Cards>
         <Slide direction="left">
           <Card
-            Icon={GiAce}
-            title={"Game development"}
-            disc={`As a game developer, I bring digital worlds to life. I can make Virtual Reality apps, Augmented Reality apps, 2D and 3D games.`}
+            Icon={MdSecurity}
+            title={"Cybersecurity Engineer"}
+            disc={`Implementing robust security measures, vulnerability assessments, and penetration testing to protect systems and data.`}
           />
         </Slide>
         <Slide direction="up">
           <Card
-            Icon={CgWebsite}
-            title={"Frontend development"}
-            disc={`As a front-end developer, my focus is on turning design concepts into visually stunning websites, ensuring that the user experience is seamless and captivating.`}
+            Icon={AiOutlineCloud}
+            title={"Cloud Security"}
+            disc={`Designing and securing cloud-native architectures, ensuring compliance and data protection in the cloud.`}
           />
         </Slide>
         <Slide direction="right">
           <Card
-            Icon={BiAbacus}
-            title={"Backend development"}
-            disc={`As a back-end developer, I build the foundation of web applications, ensuring they run smoothly and securely behind the scenes.`}
+            Icon={FaTools}
+            title={"DevSecOps"}
+            disc={`Integrating security into CI/CD pipelines, automating security checks, and ensuring secure infrastructure as code.`}
           />
         </Slide>
       </Cards>

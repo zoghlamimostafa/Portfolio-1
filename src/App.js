@@ -6,6 +6,8 @@ import Honors from "./components/Honors/Honors";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import Services from "./components/Service/Services";
+import LinkedInFeed from "./components/LinkedInFeed/LinkedInFeed";
+
 function App() {
   return (
     <Container>
@@ -16,6 +18,7 @@ function App() {
       <Services />
       <LightColor>
         <Projects />
+        <LinkedInFeed />
       </LightColor>
       <Honors />
       <LightColor>

@@ -27,115 +27,15 @@ import TRAIN from "../../assets/images/ScreenShots/TRAINANIM.jpg";
 import WH from "../../assets/images/ScreenShots/WritingHackathon.jpg";
 import Project from "./Project";
 
+import githubProjects from "../../data/github_projects.json";
 
-let data = [
-  {
-    img: VRSPACE,
-    disc: "VR application that simulates the daily activities of an astronaut during their missions.",
-    demo: "https://youtu.be/S7E82aBW6-M",
-  },
+let data = [];
 
-  {
-    img: BLACKHOLESIMULATION,
-    disc: "Black hole simulation , collaborated with expert from Illinois State University",
-    demo: "https://youtu.be/DVKuLI-FX1s",
-  },
 
-  {
-    img: MakeMeLaugh,
-    disc: "VR Application : You need to make the king laugh, or you die. - Collaborative project, made in Global Game Jam 2024",
-    demo: "https://youtu.be/n25m8NGV0_M",
-  },
 
-  {
-    img: WH,
-    disc: "VR Application for virtual library where you can select a book and live the story inside it.",
-    demo: "https://youtu.be/FGO2_8-W5xI",
-  },
-  {
-    img: GGJ2025,
-    disc: "Battle Royal VR Game - Collaborative project, made in Global Game Jam 2025, 1st prize winner.",
-    demo: "https://youtu.be/kdAYK2cGZFc",
-  },
-
-  {
-    img: CASTLEESCAPE,
-    disc: "3D Game of Castle escape : you need to resolve the puzzle to get outside of the castle.",
-    demo: "https://youtu.be/Hi_71OzzvjE",
-  },
-  {
-    img: AVAXIAOTC,
-    disc: "Online training center VR and desktop app. You can navigate in courses and make subscriptions, and have a real time session with other ( multiplayer ).",
-    demo: "https://youtu.be/40cRxQzAc2g",
-  },
-  {
-    img: CSJAM,
-    disc: "VR Game for simulation of the trading process in the stock market.",
-    demo: "https://youtu.be/AIHstNZeOJk",
-  },
-  {
-    img: TRUCK,
-    disc: "2D Game for a Caterpillar truck : You need to transport the rocks to the otherside of the map before the time finish.",
-    demo: "https://youtu.be/pWjeMm64jpo",
-  },
-
-  {
-    img: SKINSIMULATION,
-    disc: "Skin simulation based on scientific articles, Coding it from scratch, made with Unity",
-    demo: "https://youtu.be/iQHTSLWyh4E",
-  },
-  {
-    img: CLOTHSIMULATION,
-    disc: "Flag simulation based on scientific articles, Coding it from scratch, made with Unity",
-    demo: "https://youtu.be/dJ9atuVhLMs",
-  },
-  {
-    img: MAZERUNNER,
-    disc: "3D Maze Game that I made as project in my university, and I tried to make it looks like the movie : Mazer Runner.",
-    demo: "https://youtu.be/7WvUzBu9X8s",
-  },
-  {
-    img: GGJ2k22,
-    disc: "2D Game : Collaborated project during the GGJ 2k22 : it has many minigames for two players , shared screen.",
-    demo: "https://youtu.be/G7H2QHb9RDs",
-  },
-  {
-    img: ARSHOOT1,
-    disc: "AR Shooting Game : You need to kill the monsters before they distroy all houses of the map.",
-    demo: "https://youtu.be/cUN-HRnO4Ak",
-  },
-  {
-    img: KITCHEN,
-    disc: "AR Shooting Game : You have 4 lifes. You need to shoot all foods before it disappear, otherwise you will lsoe a life.",
-    demo: "https://www.youtube.com/watch?v=ChMItHTW-K0",
-  },
-  {
-    img: CVAR,
-    disc: "AR Portfolio : I created my CV with AR. By detecting my photo , you will see an interactive UI that describe my profile.",
-    demo: "https://youtu.be/nayGb0I30rg?si=_irESmONM-u1F68x&t=218",
-  },
-
-  {
-    img: VRSELIM,
-    disc: "VR project that simulates potential hazards an electrical worker may encounter when neglecting safety precautions and requirements.",
-    demo: "https://youtu.be/RE_3WBZr6Uk",
-  },
-  {
-    img: TRAIN,
-    disc: "3D Rendered video of a toy train, created with blender.",
-    demo: "https://www.youtube.com/watch?v=9TlRgjuhS4I",
-  },
-  {
-    img: XPLORE,
-    disc: "VR project for Salakta musuem, where you can live the history of monuments and interact with them.",
-    demo: "https://youtu.be/mDeKvPb0_Qg",
-  },
-  {
-    img: WAR,
-    disc: "VR application that simulates the aspect of Palestine before and after the war.",
-    demo: "https://youtu.be/coBBQ_2yao8",
-  },
-];
+// Merge manual data with fetched GitHub data
+// Manual data is first (high priority), then GitHub data
+data = [...data, ...githubProjects];
 
 const Projects = () => {
   const [showAllProjects, SetshowAllProjects] = React.useState(false);
@@ -151,7 +51,7 @@ const Projects = () => {
         <h1>
           Recent <span className="green">Projects</span>
         </h1>
-        <p>These are some of my 3D projects.</p>
+        <p>Check out my latest work in Cybersecurity, IoT, and Software Development.</p>
       </Zoom>
       {showAllProjects ? (
         <Grid container spacing={2} justifyContent="center" alignItems="center">

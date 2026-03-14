@@ -1,0 +1,62 @@
+[
+  {
+    "img": "https://picsum.photos/seed/1111361074/400/300",
+    "disc": "GitHub Repository (Python)",
+    "demo": "https://github.com/zoghlamimostafa/React2shell-exploit",
+    "title": "React2shell-exploit"
+  },
+  {
+    "img": "https://picsum.photos/seed/1039085665/400/300",
+    "disc": "GitHub Repository (JavaScript)",
+    "demo": "https://github.com/zoghlamimostafa/ecom",
+    "title": "ecom"
+  },
+  {
+    "img": "https://picsum.photos/seed/1033808727/400/300",
+    "disc": "GitHub Repository (Python)",
+    "demo": "https://github.com/zoghlamimostafa/commercial-optimization-platform",
+    "title": "commercial-optimization-platform"
+  },
+  {
+    "img": "https://picsum.photos/seed/830737030/400/300",
+    "disc": "GitHub Repository (JavaScript)",
+    "demo": "https://github.com/zoghlamimostafa/portfolio",
+    "title": "portfolio"
+  },
+  {
+    "img": "https://picsum.photos/seed/661372420/400/300",
+    "disc": "GitHub Repository (PHP)",
+    "demo": "https://github.com/zoghlamimostafa/NodeMCU-and-RFID-RC522-IoT-Projects",
+    "title": "NodeMCU-and-RFID-RC522-IoT-Projects"
+  },
+  {
+    "img": "https://picsum.photos/seed/661363046/400/300",
+    "disc": "GitHub Repository (C++)",
+    "demo": "https://github.com/zoghlamimostafa/RFID-Card-Reader-with-NodeMCU-ESP8266",
+    "title": "RFID-Card-Reader-with-NodeMCU-ESP8266"
+  },
+  {
+    "img": "https://picsum.photos/seed/661359919/400/300",
+    "disc": "GitHub Repository (Dart)",
+    "demo": "https://github.com/zoghlamimostafa/unknown-face-alarm",
+    "title": "unknown-face-alarm"
+  },
+  {
+    "img": "https://picsum.photos/seed/661354120/400/300",
+    "disc": "GitHub Repository (Python)",
+    "demo": "https://github.com/zoghlamimostafa/face-recognition",
+    "title": "face-recognition"
+  },
+  {
+    "img": "https://picsum.photos/seed/661352491/400/300",
+    "disc": "GitHub Repository (C++)",
+    "demo": "https://github.com/zoghlamimostafa/esp-streaming",
+    "title": "esp-streaming"
+  },
+  {
+    "img": "https://picsum.photos/seed/496935273/400/300",
+    "disc": "GitHub Repository (HTML)",
+    "demo": "https://github.com/zoghlamimostafa/zoghlamimostafa.github.io",
+    "title": "zoghlamimostafa.github.io"
+  }
+]

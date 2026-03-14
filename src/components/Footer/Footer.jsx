@@ -6,10 +6,8 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
-import { AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
-import Stack from "../../assets/images/stack.png";
 // import { SMTPClient } from "emailjs";
 const Footer = () => {
   // const client = new SMTPClient({
@@ -64,7 +62,6 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>Manouba, Tunisia</p>
             <p>Bizerte, Tunisia</p>
           </Slide>
         </div>
@@ -77,7 +74,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+21695578050">+216 95 578 050</a>
+              <a href="tel:+21652994394">+216 52 994 394</a>
             </Slide>
           </div>
           <div>
@@ -87,8 +84,8 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:elyeskaceme3d@gmail.com">
-                elyeskacem3d@gmail.com
+              <a href="mailto:zoghlamimustapha16@gmail.com">
+                zoghlamimustapha16@gmail.com
               </a>
             </Slide>
           </div>
@@ -100,45 +97,15 @@ const Footer = () => {
           <div className="icons">
             <Zoom>
               <span>
-                <a target="_blank" href="www.linkedin.com/in/elyeskacem">
+                <a target="_blank" href="https://www.linkedin.com/in/zogmus99/">
                   <AiFillLinkedin />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a target="_blank" href="https://github.com/ElyesKacem">
+                <a target="_blank" href="https://github.com/zoghlamimostafa">
                   <AiFillGithub />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com/elyes_kacem/"
-                >
-                  <AiOutlineInstagram />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a
-                  target="_blank"
-                  href="https://www.youtube.com/channel/UCcAgtI4-m4f0uyxuzMSO6cw"
-                >
-                  <AiFillYoutube />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a
-                  target="_blank"
-                  href="https://stackoverflow.com/users/15450130/elyes-kacem"
-                >
-                  <img src={Stack} width={18} alt="" />
                 </a>
               </span>
             </Zoom>

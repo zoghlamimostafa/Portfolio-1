@@ -1,19 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram, AiFillGithub } from "react-icons/ai";
-// import CV from "../../assets/CV.pdf"
-// import { GiEarthAmerica } from "react-icons/gi";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import Me from "../../assets/images/me.png";
-import Stack from "../../assets/images/stack.png";
 
 const ProfComponent = () => {
   const onButtonClick = () => {
     const pdfUrl = "CV.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Elyes Kacem CV.pdf"; // specify the filename
+    link.download = "Mustapha Zoghlami CV.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -25,46 +22,30 @@ const ProfComponent = () => {
           <h4>
             Hello <span className="green">I'am</span>
           </h4>
-          <h1 className="green">Elyes Kacem</h1>
-          <h3>Computer Science Engineer</h3>
+          <h1 className="green">Mustapha Zoghlami</h1>
+          <h3>Cybersecurity Engineer | Cloud Security | DevSecOps</h3>
 
           <p>
-            I'm a computer science engineer, proficient in both game and web
-            development. My passion lies in creating captivating games and
-            user-friendly websites, driven by innovation and a strong foundation
-            in computer science.
+            Computer Engineer specializing in Cybersecurity and Cloud Security with hands-on
+            experience designing and securing cloud-native platforms, IoT systems, and CI/CD pipelines.
+            Strong in Python automation, network security, and risk reduction through pragmatic controls
+            and developer enablement.
           </p>
           <button onClick={onButtonClick}>Download CV</button>
           <Social>
             <p>Visit my</p>
             <div className="social-icons">
               <span>
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com/elyes_kacem/"
-                >
-                  <AiOutlineInstagram />
-                </a>
-              </span>
-              <span>
-                <a target="_blank" href="https://github.com/ElyesKacem">
+                <a target="_blank" href="https://github.com/zoghlamimostafa">
                   <AiFillGithub />
                 </a>
               </span>
               <span>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/elyeskacem/"
+                  href="https://www.linkedin.com/in/zogmus99/"
                 >
                   <FaLinkedinIn />
-                </a>
-              </span>
-              <span>
-                <a
-                  target="_blank"
-                  href="https://stackoverflow.com/users/15450130/elyes-kacem"
-                >
-                  <img src={Stack} width={18} alt="" />
                 </a>
               </span>
             </div>
