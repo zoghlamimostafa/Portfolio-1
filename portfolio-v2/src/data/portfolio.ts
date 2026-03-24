@@ -5,7 +5,7 @@ export const portfolioData = {
   social: {
     github: "https://github.com/zoghlamimostafa",
     linkedin: "https://www.linkedin.com/in/zogmus99/",
-    email: "contact@mustaphazoghlami.com",
+    email: "zoghlamimustapha16@gmail.com",
   },
   services: [
     {
@@ -76,47 +76,85 @@ export const portfolioData = {
       tech: "C++",
       url: "https://github.com/zoghlamimostafa/esp-streaming",
     },
+    {
+      title: "Samino Shop",
+      description: "E-commerce marketplace offering furniture, electronics, and household goods",
+      tech: "Web Development",
+      url: "https://www.samino.shop/",
+    },
+    {
+      title: "Sanny Shop",
+      description: "Online boutique for smartphones, electronics, and fashion items",
+      tech: "E-commerce",
+      url: "https://sannyshop.tn/",
+    },
+    {
+      title: "Tajini Top Travel",
+      description: "Travel agency for vacation packages and authentic travel experiences",
+      tech: "Web Platform",
+      url: "https://tajinitoptravel.com/",
+    },
+    {
+      title: "El Makina Digital",
+      description: "Digital agency providing web development, mobile apps, and IT security services",
+      tech: "Full Stack",
+      url: "https://el-makina.tn/",
+    },
+    {
+      title: "Opera Comique",
+      description: "Cultural and entertainment platform",
+      tech: "Web Development",
+      url: "https://operacomique.online/",
+    },
+    {
+      title: "YarinInd",
+      description: "B2B/B2C e-commerce platform for industrial components and maintenance supplies",
+      tech: "E-commerce",
+      url: "https://www.yarinind.com/",
+    },
+    {
+      title: "Assadi Drive",
+      description: "Premium chauffeur and luxury vehicle service for VIP transfers and events",
+      tech: "Service Platform",
+      url: "https://assadidrive.com/",
+    },
+    {
+      title: "Serinel",
+      description: "Engineering services for industrial electrical systems and instrumentation",
+      tech: "Corporate Website",
+      url: "https://serinel.com/",
+    },
+    {
+      title: "Voyages Exclusifs",
+      description: "Travel agency offering customized vacation packages and hotel bookings",
+      tech: "Travel Platform",
+      url: "https://voyagesexclusifs.com/",
+    },
+    {
+      title: "Samasys",
+      description: "Payroll outsourcing and HR advisory firm for employee compensation and compliance",
+      tech: "Business Platform",
+      url: "https://samasys.com/",
+    },
+    {
+      title: "Webshine",
+      description: "Digital marketing agency providing web development, SEO, and social media services",
+      tech: "Agency Website",
+      url: "https://webshine.net/",
+    },
   ],
   honors: [
     {
-      title: "1st Prize at Hack The Heritage Hackathon",
-      year: "2025",
-      description:
-        "Created a VR-powered digital platform that brings the Salakta Archaeological Museum to life through immersive virtual exploration.",
-    },
-    {
-      title: "2nd Prize at CSJAM Hackathon 1.0",
-      year: "2025",
-      description:
-        "Created a VR simulation game focused on business management.",
-    },
-    {
-      title: "1st Prize at Global Game Jam Tunisia",
-      year: "2025",
-      description: "Created a Battle Royal VR Game with team ISAMMerse.",
-    },
-    {
-      title: "1st Prize at Space Hack Tunisia",
+      title: "2nd Place at Sea Tech'Hack Hackathon",
       year: "2023",
       description:
-        "Created a VR application simulating astronaut daily activities.",
+        "Innovative technology solution for maritime and ocean technology challenges.",
     },
     {
-      title: "1st Prize at Coding Universe",
-      year: "2023",
+      title: "2nd Place at Innovation Challenge 3",
+      year: "2019",
       description:
-        "Developed an AR application for machine operation safety training.",
-    },
-    {
-      title: "Major of the Promotion",
-      year: "2023 & 2024",
-      description:
-        "Consecutive recognition for academic excellence at university.",
-    },
-    {
-      title: "Best 10 Project at GGJ Tunisia",
-      year: "2022",
-      description: "Developed 'Dual Wars' mobile game for two players.",
+        "Recognition for innovative solution in technology and engineering competition.",
     },
   ],
 };
